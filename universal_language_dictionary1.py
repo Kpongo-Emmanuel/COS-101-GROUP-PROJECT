@@ -19,7 +19,7 @@ if language_choice == 'a':
             else:
                  print("please choose from the list of words")
 if language_choice == 'b':
-    print('you have chosen "Igbo" language, you may now choose from the following words to translate') #this is for Treasure
+    print('you have chosen "Igbo" language, you may now choose from the following words to translate.') #this is for Treasure
 #---> Print your list of english words on this line (you can delete this)
 #then yea you can paste your code here->
 
