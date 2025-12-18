@@ -25,8 +25,19 @@ if language_choice == 'b':
 
 if language_choice == 'c':
     print('you have chosen "Jenjo" language, you may now choose from the following words to translate:') #this is for Pheeyamila
-#---> Print your list of english words on this line (you can delete this)
-#then yea you can paste your code here->
+ Print(eng_words) 
+jenjo_dictionary ={
+  "Water": "Mirit","Air": "Fɔli","Fire": "Fayol","Earth": "Kana","Tree": "Gasorund","How are you": "Foli wɛ?",
+  "Moon":"kili","Red": "Rudu","Purple": "Puruli", "Brother": "Bumia","Sister": "Sissma", "Father": "Banito",
+  "Sand": "Sanda", "How old are you": "Fo sɔ?", "Good day": "Nifa","Phone": "Telenouy", "Hammer": "Garia",
+  "Story": "Kima","Bed": "Lakm","Tall":Talero"
+}
+   while 1==1:
+     word= input(what word do you want to translate ?)      
+if the word is in jenjo_dict:
+print(word,'means',jenjo dict_dict[word], 'in jenjo')
+else :
+print("apologies word not found ,select from available words")
 if language_choice == 'd':
     print('you have chosen "Efik" language, you may now choose from the following words to translate:')  
     print(eng_words)
