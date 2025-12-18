@@ -27,7 +27,6 @@ if language_choice == 'c':
     print('you have chosen "Jenjo" language, you may now choose from the following words to translate:') #this is for Pheeyamila
 #---> Print your list of english words on this line (you can delete this)
 #then yea you can paste your code here->
-print(Alero's Addition)
 if language_choice == 'd':
     print('you have chosen "Efik" language, you may now choose from the following words to translate:')  
     print(eng_words)
