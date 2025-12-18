@@ -34,5 +34,5 @@ if language_choice == 'd':
     # then yea you can paste your code here->
 
 if language_choice == 'e':
-    print('you have chosen "Your_language" language, you may now choose from the following words to translate')  # this is for Alero, please replace 'Your_language' with your language for the dictionary
+    print('you have chosen "Your_language" language, yay you may now choose from the following words to translate')  # this is for Alero, please replace 'Your_language' with your language for the dictionary
     # ---> Print your list of english words on this line (you can delete this)
