@@ -38,11 +38,18 @@ while True:
         if language_choice == 'b':
             print('you have chosen "Igbo" language, you may now choose from the following words to translate:') #this is for Treasure
             print(Igbo_dict_words)
-            Igbo_word = input('what word would you like to translate?')
-            #paste your code here and tell me when you've done it
-
-
-
+            Igbo_word = input('what word would you like to translate')
+            print("welcome to Treasure igbo dictionary")
+            print("feel free to search for a word of your choice")
+            print("Dictionary for igbo languages" , "please enter a word")
+            my_dictionary ={'Hello' : 'Ndewo' , 'Please' : 'Biko' , 'Thank you' : 'Daalu' , 'No' : 'Mba' , 'Yes' : 'Ee' , 'Chair' : 'Oche' , 'Cup' : ''Iko' , 'Mother' : 'Nne' , 'Father' : 'Nna' , 'Child' : 'Nwa' , 'Water' : 'Mmiri' , 'Road' : 'Uzo', 'House' : 'Ulo' , 'Book' : 'Akwukwo' , 'Eye' : 'Anya' , 'Head' : 'Isi' , 'Ground' : 'Ala' , 'Body' : 'Ahu' , 'Day' : 'Ubochi' , 'Money' : 'Ego'}             
+            print(my_dictionary)
+            language = my_dictionary['Hello']
+            print(language)
+            while true:
+                 word = input("Enter word")
+                 if word in my_dictionary:
+                     print(my_dictionary[word])
         if language_choice == 'c':
             print('you have chosen "Jenjo" language, you may now choose from the following words to translate:') #this is for Pheeyamila
             print(Jenjo_dict_words)
