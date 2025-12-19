@@ -23,6 +23,7 @@ Tiv_dict_words = 'come\ntake\nsee\ngo\neat\nhouse\nsleep\nwalk\nwork\nplay\nask\
 Jenjo_dict_words = 'Water\nAir\nFire\nEarth\nTree\nCat\nMoon\nRed\nPurple\nBrother\nSister\nFather\nSand\nDog\nMan\nPhone\nHammer\nStory\nBed\nTall'
 Igbo_dict_words = 'Hello\nPlease\nThank you \nNo\nYes\nChair\nCup\nMother\nFather\nChild\nWater\nRoad\nHouse\nBook\nEye\nHead\nGround\nBody\nDay\nMoney'
 Efik_dict_words = 'hello\ngoodbye\nthank you\nyes\nno\nwater\nfood\nhouse\nman\nwoman\nchild\nfriend\nlove\nschool\nbook\nsun\nmoon\nmoney\nwork\nname'
+Yoruba_dict_words = 'chair\ntowel\nfriend\nfood\nleg\ncome\nsit\nread\nlaugh\nsmoke\nboy\ndrink\nsing\nrunning\nblack\nwhite\nrice\nlamp\ncar\ndance'
 print('Welcome to the universal dictionary you may choose from the following languages')
 print(Languages)
 while True:
@@ -78,4 +79,5 @@ while True:
             if Yoruba_word in Yoruba_dict_words:
              print(Yoruba_word, 'means', yoruba_dictionary[Yoruba_word], 'in Yoruba')
             else:
-                print("Sorry, that word is not in the dictionary.")
+                print("Sorry, that word is not in the dictionary")
+
