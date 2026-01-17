@@ -27,7 +27,7 @@ Yoruba_dict_words = 'chair\ntowel\nfriend\nfood\nleg\ncome\nsit\nread\nlaugh\nsm
 print('Welcome to the universal dictionary you may choose from the following languages')
 print(Languages)
 while True:
-        language_choice = input('Which language do you want to use?')
+        language_choice = input('Which language do you want to use?') # This is from Emmanuel
         if language_choice == 'a':
                 print('you have chosen "Tiv" language, you may now choose from the following words to translate:')
                 print(Tiv_dict_words)
@@ -60,7 +60,7 @@ while True:
 
 
 
-        if language_choice == 'd':
+        if language_choice == 'd': #This is from Alero
             print('you have chosen "Efik" language, you may now choose from the following words to translate:')
             print(Efik_dict_words)
             Efik_word = input('what word do you wish to translate?')
